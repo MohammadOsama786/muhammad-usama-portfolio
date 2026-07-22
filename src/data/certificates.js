@@ -1,2 +1,72 @@
-// Add only verified certificates. Example:
-export const certificates = [{ title: 'Android Development', issuer: 'Issuer', date: '2026', image: '/images/certificates/android.jpg', url: 'https://...' }]
+// src/data/certificates.js
+// These entries are for portfolio layout testing only.
+// Replace them with verified certificates before publishing.
+
+export const certificates = [
+  {
+    id: 1,
+    title: 'Android Development',
+    recipient: 'Muhammad Usama',
+    issuer: 'Sample Certificate',
+    date: '2026',
+    credentialId: '',
+    image: '/images/certificates/android-development.jpg',
+    url: '',
+    status: 'demo',
+  },
+  {
+    id: 2,
+    title: 'Kotlin & Jetpack Compose',
+    recipient: 'Muhammad Usama',
+    issuer: 'Sample Certificate',
+    date: '2026',
+    credentialId: '',
+    image: '/images/certificates/kotlin-compose.jpg',
+    url: '',
+    status: 'demo',
+  },
+  {
+    id: 3,
+    title: 'WordPress Development',
+    recipient: 'Muhammad Usama',
+    issuer: 'Sample Certificate',
+    date: '2026',
+    credentialId: '',
+    image: '/images/certificates/wordpress.jpg',
+    url: '',
+    status: 'demo',
+  },
+  {
+    id: 4,
+    title: 'Digital Marketing Fundamentals',
+    recipient: 'Muhammad Usama',
+    issuer: 'Sample Certificate',
+    date: '2026',
+    credentialId: '',
+    image: '/images/certificates/digital-marketing.jpg',
+    url: '',
+    status: 'demo',
+  },
+  {
+    id: 5,
+    title: 'SEO Content Writing',
+    recipient: 'Muhammad Usama',
+    issuer: 'Sample Certificate',
+    date: '2026',
+    credentialId: '',
+    image: '/images/certificates/seo-content-writing.jpg',
+    url: '',
+    status: 'demo',
+  },
+  {
+    id: 6,
+    title: 'Firebase & REST API Integration',
+    recipient: 'Muhammad Usama',
+    issuer: 'Sample Certificate',
+    date: '2026',
+    credentialId: '',
+    image: '/images/certificates/firebase-api.jpg',
+    url: '',
+    status: 'demo',
+  },
+]
