@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="t d">
+  <title id="t">Android Authentication Starter</title>
+  <desc id="d">Firebase • Google Sign-In • OTP • Sessions</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06111f"/>
+      <stop offset="0.58" stop-color="#0b1d32"/>
+      <stop offset="1" stop-color="#0a1425"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6de7d4"/>
+      <stop offset="1" stop-color="#51b7ff"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="45"/></filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#000" flood-opacity=".32"/>
+    </filter>
+    <pattern id="grid" width="46" height="46" patternUnits="userSpaceOnUse">
+      <path d="M46 0H0V46" fill="none" stroke="#8dc9ff" stroke-opacity=".07"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <rect width="1200" height="675" fill="url(#grid)"/>
+  <circle cx="105" cy="100" r="180" fill="#6de7d4" fill-opacity=".16" filter="url(#blur)"/>
+  <circle cx="1080" cy="575" r="220" fill="#51b7ff" fill-opacity=".14" filter="url(#blur)"/>
+  <rect x="74" y="74" width="1052" height="527" rx="36" fill="#0c2036" fill-opacity=".82" stroke="#8dc9ff" stroke-opacity=".14" filter="url(#shadow)"/>
+  <rect x="94" y="94" width="1012" height="487" rx="27" fill="#071624" stroke="#8dc9ff" stroke-opacity=".08"/>
+  <g opacity=".9">
+        <g transform="translate(680 135)">
+          <rect x="0" y="0" width="328" height="255" rx="28" fill="#0d2944" stroke="#6de7d4" stroke-opacity=".28"/>
+          <circle cx="164" cy="72" r="38" fill="url(#accent)" fill-opacity=".85"/>
+          <circle cx="164" cy="62" r="14" fill="#fff" fill-opacity=".88"/>
+          <path d="M138 92c10-18 42-18 52 0" fill="none" stroke="#fff" stroke-opacity=".88" stroke-width="12" stroke-linecap="round"/>
+          <rect x="60" y="132" width="208" height="38" rx="12" fill="#071624" stroke="#8dc9ff" stroke-opacity=".14"/>
+          <circle cx="82" cy="151" r="6" fill="#6de7d4"/>
+          <rect x="98" y="145" width="113" height="12" rx="6" fill="#9eb0c7" fill-opacity=".22"/>
+          <rect x="60" y="186" width="208" height="38" rx="12" fill="url(#accent)" fill-opacity=".78"/>
+          <path d="M137 205h54" stroke="#fff" stroke-width="9" stroke-linecap="round"/>
+          <g transform="translate(-54 74)">
+            <circle cx="34" cy="34" r="34" fill="#102944" stroke="#6de7d4" stroke-opacity=".4"/>
+            <path d="M21 34l9 9 18-20" fill="none" stroke="#6de7d4" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+          </g>
+        </g></g>
+  <g>
+    <text x="138" y="462" fill="#f5f8fc" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="800" letter-spacing="-2">Android Authentication Starter</text>
+    <text x="140" y="510" fill="#9eb0c7" font-family="Arial, Helvetica, sans-serif" font-size="24">Firebase • Google Sign-In • OTP • Sessions</text>
+    <rect x="140" y="542" width="180" height="7" rx="3.5" fill="url(#accent)"/>
+  </g>
+  <g transform="translate(963 116)">
+    <rect width="112" height="42" rx="21" fill="#ffffff" fill-opacity=".06" stroke="#ffffff" stroke-opacity=".11"/>
+    <circle cx="25" cy="21" r="6" fill="#6de7d4"/>
+    <text x="43" y="27" fill="#dce9f7" font-family="Arial, Helvetica, sans-serif" font-size="15" font-weight="700">CASE STUDY</text>
+  </g>
+</svg>

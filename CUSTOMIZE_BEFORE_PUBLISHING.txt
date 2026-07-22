@@ -1,0 +1,12 @@
+MUHAMMAD USAMA PORTFOLIO — FINAL CHECKLIST
+
+1. Replace email, phone, WhatsApp, LinkedIn and GitHub in src/data/site.js.
+2. Replace the education placeholder in src/data/experience.js.
+3. Add exact job dates and verified company information.
+4. Replace placeholder GitHub links in src/data/projects.js.
+5. Replace project illustrations with real screenshots when available.
+6. Add only verified certificates in src/data/certificates.js.
+7. Review the CV in public/documents/Muhammad_Usama_CV.pdf.
+8. Replace YOUR-VERCEL-DOMAIN in public/sitemap.xml.
+9. Run npm run build and fix any reported error.
+10. Test every button on phone and desktop before applying for jobs.
